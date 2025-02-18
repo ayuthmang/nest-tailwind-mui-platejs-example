@@ -62,7 +62,7 @@ export const TableCellElement = withRef<
       as={isHeader ? "th" : "td"}
       className={cn(
         className,
-        "'h-full overflow-visible border-none bg-white p-0' dark:bg-neutral-950",
+        "h-full overflow-visible border-none bg-white p-0 dark:bg-neutral-950",
         element.background ? "bg-(--cellBackground)" : "bg-background",
         isHeader && "text-left *:m-0",
         "before:size-full",

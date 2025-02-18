@@ -34,7 +34,7 @@ export const ToolbarSeparator = withCn(
 
 const toolbarButtonVariants = cva(
   cn(
-    "'inline-flex cursor-pointer items-center justify-center gap-2 rounded-md text-sm font-medium whitespace-nowrap text-neutral-950 transition-colors disabled:pointer-events-none disabled:opacity-50 [&_svg:not([data-icon])]:size-4' dark:text-neutral-50"
+    "inline-flex cursor-pointer items-center justify-center gap-2 rounded-md text-sm font-medium whitespace-nowrap text-neutral-950 transition-colors disabled:pointer-events-none disabled:opacity-50 [&_svg:not([data-icon])]:size-4 dark:text-neutral-50"
   ),
   {
     defaultVariants: {
@@ -49,9 +49,9 @@ const toolbarButtonVariants = cva(
       },
       variant: {
         default:
-          "'bg-transparent hover:bg-neutral-100 hover:text-neutral-500 aria-checked:bg-neutral-100 aria-checked:text-accent-foreground' dark:hover:bg-neutral-800 dark:hover:text-neutral-400 dark:aria-checked:bg-neutral-800",
+          "bg-transparent hover:bg-neutral-100 hover:text-neutral-500 aria-checked:bg-neutral-100 aria-checked:text-accent-foreground dark:hover:bg-neutral-800 dark:hover:text-neutral-400 dark:aria-checked:bg-neutral-800",
         outline:
-          "'border border-neutral-200 bg-transparent hover:bg-neutral-100 hover:text-accent-foreground' dark:border-neutral-800 dark:hover:bg-neutral-800",
+          "border border-neutral-200 bg-transparent hover:bg-neutral-100 hover:text-accent-foreground dark:border-neutral-800 dark:hover:bg-neutral-800",
       },
     },
   }
@@ -59,7 +59,7 @@ const toolbarButtonVariants = cva(
 
 const dropdownArrowVariants = cva(
   cn(
-    "'inline-flex items-center justify-center rounded-r-md text-sm font-medium text-neutral-950 transition-colors disabled:pointer-events-none disabled:opacity-50' dark:text-neutral-50"
+    "inline-flex items-center justify-center rounded-r-md text-sm font-medium text-neutral-950 transition-colors disabled:pointer-events-none disabled:opacity-50 dark:text-neutral-50"
   ),
   {
     defaultVariants: {
@@ -74,9 +74,9 @@ const dropdownArrowVariants = cva(
       },
       variant: {
         default:
-          "'bg-transparent hover:bg-neutral-100 hover:text-neutral-500 aria-checked:bg-neutral-100 aria-checked:text-accent-foreground' dark:hover:bg-neutral-800 dark:hover:text-neutral-400 dark:aria-checked:bg-neutral-800",
+          "bg-transparent hover:bg-neutral-100 hover:text-neutral-500 aria-checked:bg-neutral-100 aria-checked:text-accent-foreground dark:hover:bg-neutral-800 dark:hover:text-neutral-400 dark:aria-checked:bg-neutral-800",
         outline:
-          "'border border-l-0 border-neutral-200 bg-transparent hover:bg-neutral-100 hover:text-accent-foreground' dark:border-neutral-800 dark:hover:bg-neutral-800",
+          "border border-l-0 border-neutral-200 bg-transparent hover:bg-neutral-100 hover:text-accent-foreground dark:border-neutral-800 dark:hover:bg-neutral-800",
       },
     },
   }
@@ -185,7 +185,7 @@ export const ToolbarSplitButtonPrimary = withTooltip(
             variant,
           }),
           "rounded-r-none",
-          "'group-data-[pressed=true]:bg-neutral-100 group-data-[pressed=true]:text-accent-foreground' dark:'group-data-[pressed=true]:bg-neutral-800",
+          "group-data-[pressed=true]:bg-neutral-100 group-data-[pressed=true]:text-accent-foreground dark:'group-data-[pressed=true]:bg-neutral-800",
           className
         )}
         {...props}
@@ -209,7 +209,7 @@ export const ToolbarSplitButtonSecondary = React.forwardRef<
           size,
           variant,
         }),
-        "'group-data-[pressed=true]:bg-neutral-100 group-data-[pressed=true]:text-accent-foreground' dark:'group-data-[pressed=true]:bg-neutral-800",
+        "group-data-[pressed=true]:bg-neutral-100 group-data-[pressed=true]:text-accent-foreground dark:'group-data-[pressed=true]:bg-neutral-800",
         className
       )}
       onClick={(e) => e.stopPropagation()}

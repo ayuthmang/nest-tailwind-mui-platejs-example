@@ -47,7 +47,7 @@ export function ColorDropdownMenuItem({
           size: "icon",
           variant: "outline",
         }),
-        "'my-1 flex size-6 items-center justify-center rounded-full border border-neutral-200 border-solid border-neutral-100 p-0 transition-all hover:scale-125' dark:border-neutral-800",
+        "my-1 flex size-6 items-center justify-center rounded-full border border-neutral-200 border-solid border-neutral-100 p-0 transition-all hover:scale-125 dark:border-neutral-800",
         !isBrightColor && "border-transparent text-white hover:text-white!",
         className
       )}

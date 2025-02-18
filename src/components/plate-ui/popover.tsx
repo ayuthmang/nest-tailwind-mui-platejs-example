@@ -13,7 +13,7 @@ export const PopoverTrigger = PopoverPrimitive.Trigger;
 export const PopoverAnchor = PopoverPrimitive.Anchor;
 
 export const popoverVariants = cva(
-  "'z-50 w-72 rounded-md border border-neutral-200 bg-white p-4 text-neutral-950 shadow-md outline-hidden print:hidden' dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-50",
+  "z-50 w-72 rounded-md border border-neutral-200 bg-white p-4 text-neutral-950 shadow-md outline-hidden print:hidden dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-50",
   {
     defaultVariants: {
       animate: true,

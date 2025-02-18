@@ -24,7 +24,7 @@ import {
 import { inputVariants } from "./input";
 
 const commandVariants = cva(
-  "'flex size-full flex-col rounded-md bg-white text-neutral-950 focus-visible:outline-hidden' dark:bg-neutral-950 dark:text-neutral-50",
+  "flex size-full flex-col rounded-md bg-white text-neutral-950 focus-visible:outline-hidden dark:bg-neutral-950 dark:text-neutral-50",
   {
     defaultVariants: {
       variant: "default",
@@ -65,7 +65,7 @@ export const CommandInput = withRef<typeof CommandPrimitive.Input>(
       <CommandPrimitive.Input
         ref={ref}
         className={cn(
-          "'flex h-11 w-full rounded-md bg-transparent py-3 text-sm outline-hidden placeholder:text-neutral-500 disabled:cursor-not-allowed disabled:opacity-50' dark:placeholder:text-neutral-400",
+          "flex h-11 w-full rounded-md bg-transparent py-3 text-sm outline-hidden placeholder:text-neutral-500 disabled:cursor-not-allowed disabled:opacity-50 dark:placeholder:text-neutral-400",
           className
         )}
         {...props}
@@ -92,7 +92,7 @@ export const CommandEmpty = withCn(
 
 export const CommandGroup = withCn(
   CommandPrimitive.Group,
-  "'overflow-hidden p-1 text-neutral-950 [&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:py-1.5 [&_[cmdk-group-heading]]:text-xs [&_[cmdk-group-heading]]:font-medium [&_[cmdk-group-heading]]:text-muted-foreground' dark:text-neutral-50"
+  "overflow-hidden p-1 text-neutral-950 [&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:py-1.5 [&_[cmdk-group-heading]]:text-xs [&_[cmdk-group-heading]]:font-medium [&_[cmdk-group-heading]]:text-muted-foreground dark:text-neutral-50"
 );
 
 export const CommandSeparator = withCn(
@@ -102,7 +102,7 @@ export const CommandSeparator = withCn(
 
 export const CommandItem = withCn(
   CommandPrimitive.Item,
-  "'relative flex cursor-default items-center gap-2 rounded-sm px-2 py-1.5 text-sm outline-hidden select-none data-[disabled=true]:pointer-events-none data-[disabled=true]:opacity-50 data-[selected=true]:bg-neutral-100 data-[selected=true]:text-neutral-900 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0' dark:data-[selected=true]:bg-neutral-800 dark:data-[selected=true]:text-neutral-50"
+  "relative flex cursor-default items-center gap-2 rounded-sm px-2 py-1.5 text-sm outline-hidden select-none data-[disabled=true]:pointer-events-none data-[disabled=true]:opacity-50 data-[selected=true]:bg-neutral-100 data-[selected=true]:text-neutral-900 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 dark:data-[selected=true]:bg-neutral-800 dark:data-[selected=true]:text-neutral-50"
 );
 
 export const CommandShortcut = withCn(

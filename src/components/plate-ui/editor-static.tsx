@@ -10,8 +10,8 @@ export const editorVariants = cva(
   cn(
     "group/editor",
     "relative w-full cursor-text overflow-x-hidden break-words whitespace-pre-wrap select-text",
-    "'rounded-md ring-offset-white focus-visible:outline-none' dark:ring-offset-neutral-950",
-    "'placeholder:text-neutral-500/80 **:data-slate-placeholder:top-[auto_!important] **:data-slate-placeholder:text-neutral-500/80 **:data-slate-placeholder:opacity-100!' dark:'placeholder:text-neutral-400/80 dark:**:data-slate-placeholder:text-neutral-400/80",
+    "rounded-md ring-offset-white focus-visible:outline-none dark:ring-offset-neutral-950",
+    "placeholder:text-neutral-500/80 **:data-slate-placeholder:top-[auto_!important] **:data-slate-placeholder:text-neutral-500/80 **:data-slate-placeholder:opacity-100! dark:'placeholder:text-neutral-400/80 dark:**:data-slate-placeholder:text-neutral-400/80",
     "[&_strong]:font-bold"
   ),
   {
@@ -23,7 +23,7 @@ export const editorVariants = cva(
         true: "cursor-not-allowed opacity-50",
       },
       focused: {
-        true: "'ring-2 ring-neutral-950 ring-offset-2' dark:ring-neutral-300",
+        true: "ring-2 ring-neutral-950 ring-offset-2 dark:ring-neutral-300",
       },
       variant: {
         ai: "w-full px-0 text-base md:text-sm",

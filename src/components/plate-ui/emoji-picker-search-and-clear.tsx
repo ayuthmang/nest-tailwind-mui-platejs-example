@@ -31,7 +31,7 @@ export function EmojiPickerSearchAndClear({
           size="icon"
           variant="ghost"
           className={cn(
-            "'absolute top-1/2 right-0.5 flex size-8 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full border-none bg-transparent text-neutral-950 hover:bg-transparent' dark:text-neutral-50"
+            "absolute top-1/2 right-0.5 flex size-8 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full border-none bg-transparent text-neutral-950 hover:bg-transparent dark:text-neutral-50"
           )}
           onClick={clearSearch}
           title={i18n.clear}

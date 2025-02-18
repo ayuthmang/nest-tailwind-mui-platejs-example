@@ -187,7 +187,7 @@ export function EmojiPickerContent({
         "[&::-webkit-scrollbar]:w-4",
         "[&::-webkit-scrollbar-button]:hidden [&::-webkit-scrollbar-button]:size-0",
         "[&::-webkit-scrollbar-thumb]:min-h-11 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-neutral-100 [&::-webkit-scrollbar-thumb]:hover:bg-neutral-500/25' dark:[&::-webkit-scrollbar-thumb]:bg-neutral-800 dark:[&::-webkit-scrollbar-thumb]:hover:bg-neutral-400/25",
-        "'[&::-webkit-scrollbar-thumb]:border-4 [&::-webkit-scrollbar-thumb]:border-solid [&::-webkit-scrollbar-thumb]:border-white [&::-webkit-scrollbar-thumb]:bg-clip-padding' dark:[&::-webkit-scrollbar-thumb]:border-neutral-950"
+        "[&::-webkit-scrollbar-thumb]:border-4 [&::-webkit-scrollbar-thumb]:border-solid [&::-webkit-scrollbar-thumb]:border-white [&::-webkit-scrollbar-thumb]:bg-clip-padding dark:[&::-webkit-scrollbar-thumb]:border-neutral-950"
       )}
       data-id="scroll"
     >

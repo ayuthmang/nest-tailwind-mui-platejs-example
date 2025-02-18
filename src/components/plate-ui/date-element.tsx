@@ -16,7 +16,7 @@ export const DateElement = withRef<typeof PlateElement>(
     const trigger = (
       <span
         className={cn(
-          "'w-fit cursor-pointer rounded-sm bg-neutral-100 px-1 text-muted-foreground' dark:bg-neutral-800"
+          "w-fit cursor-pointer rounded-sm bg-neutral-100 px-1 text-muted-foreground dark:bg-neutral-800"
         )}
         contentEditable={false}
         draggable

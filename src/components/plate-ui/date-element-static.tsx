@@ -15,7 +15,7 @@ export function DateElementStatic({
   return (
     <SlateElement className={cn(className, "inline-block")} {...props}>
       <span
-        className={cn("'w-fit rounded-sm bg-neutral-100 px-1 text-muted-foreground' dark:bg-neutral-800")}
+        className={cn("w-fit rounded-sm bg-neutral-100 px-1 text-muted-foreground dark:bg-neutral-800")}
       >
         {element.date ? (
           (() => {

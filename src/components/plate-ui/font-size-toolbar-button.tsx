@@ -123,7 +123,7 @@ export function FontSizeToolbarButton() {
             <button
               key={size}
               className={cn(
-                "'flex h-8 w-full items-center justify-center text-sm hover:bg-neutral-100 data-[highlighted=true]:bg-accent' dark:hover:bg-neutral-800"
+                "flex h-8 w-full items-center justify-center text-sm hover:bg-neutral-100 data-[highlighted=true]:bg-accent dark:hover:bg-neutral-800"
               )}
               onClick={() => {
                 api.fontSize.setMark(`${size}px`);

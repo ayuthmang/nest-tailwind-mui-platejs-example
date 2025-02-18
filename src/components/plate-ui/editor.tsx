@@ -24,7 +24,7 @@ const editorContainerVariants = cva(
         default: "h-full",
         demo: "h-[650px]",
         select: cn(
-          "'group rounded-md border border-neutral-200 ring-offset-white focus-within:ring-2 focus-within:ring-neutral-950 focus-within:ring-offset-2' dark:border-neutral-800 dark:ring-offset-neutral-950 dark:focus-within:ring-neutral-300",
+          "group rounded-md border border-neutral-200 ring-offset-white focus-within:ring-2 focus-within:ring-neutral-950 focus-within:ring-offset-2 dark:border-neutral-800 dark:ring-offset-neutral-950 dark:focus-within:ring-neutral-300",
           "has-data-readonly:w-fit has-data-readonly:cursor-default has-data-readonly:border-transparent has-data-readonly:focus-within:[box-shadow:none]"
         ),
       },
@@ -61,8 +61,8 @@ const editorVariants = cva(
   cn(
     "group/editor",
     "relative w-full cursor-text overflow-x-hidden break-words whitespace-pre-wrap select-text",
-    "'rounded-md ring-offset-white focus-visible:outline-none' dark:ring-offset-neutral-950",
-    "'placeholder:text-neutral-500/80 **:data-slate-placeholder:top-[auto_!important] **:data-slate-placeholder:text-neutral-500/80 **:data-slate-placeholder:opacity-100!' dark:'placeholder:text-neutral-400/80 dark:**:data-slate-placeholder:text-neutral-400/80",
+    "rounded-md ring-offset-white focus-visible:outline-none dark:ring-offset-neutral-950",
+    "placeholder:text-neutral-500/80 **:data-slate-placeholder:top-[auto_!important] **:data-slate-placeholder:text-neutral-500/80 **:data-slate-placeholder:opacity-100! dark:'placeholder:text-neutral-400/80 dark:**:data-slate-placeholder:text-neutral-400/80",
     "[&_strong]:font-bold"
   ),
   {
@@ -74,7 +74,7 @@ const editorVariants = cva(
         true: "cursor-not-allowed opacity-50",
       },
       focused: {
-        true: "'ring-2 ring-neutral-950 ring-offset-2' dark:ring-neutral-300",
+        true: "ring-2 ring-neutral-950 ring-offset-2 dark:ring-neutral-300",
       },
       variant: {
         ai: "w-full px-0 text-base md:text-sm",

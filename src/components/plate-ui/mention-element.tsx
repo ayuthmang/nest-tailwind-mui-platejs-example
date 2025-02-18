@@ -30,7 +30,7 @@ export const MentionElement = withRef<
       ref={ref}
       className={cn(
         className,
-        "'inline-block rounded-md bg-neutral-100 px-1.5 py-0.5 align-baseline text-sm font-medium' dark:bg-neutral-800",
+        "inline-block rounded-md bg-neutral-100 px-1.5 py-0.5 align-baseline text-sm font-medium dark:bg-neutral-800",
         !readOnly && "cursor-pointer",
         selected && focused && "ring-2 ring-ring",
         element.children[0].bold === true && "font-bold",

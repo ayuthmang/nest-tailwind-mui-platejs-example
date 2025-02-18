@@ -15,7 +15,7 @@ import { cva } from "class-variance-authority";
 import { Button } from "./button";
 
 const headingItemVariants = cva(
-  "'block h-auto w-full cursor-pointer truncate rounded-none px-0.5 py-1.5 text-left font-medium text-neutral-500 underline decoration-[0.5px] underline-offset-4 hover:bg-neutral-100 hover:text-muted-foreground' dark:text-neutral-400 dark:hover:bg-neutral-800",
+  "block h-auto w-full cursor-pointer truncate rounded-none px-0.5 py-1.5 text-left font-medium text-neutral-500 underline decoration-[0.5px] underline-offset-4 hover:bg-neutral-100 hover:text-muted-foreground dark:text-neutral-400 dark:hover:bg-neutral-800",
   {
     variants: {
       depth: {

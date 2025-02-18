@@ -22,7 +22,7 @@ function Calendar({
       classNames={{
         caption: "flex justify-center pt-1 relative items-center",
         caption_label: "text-sm font-medium",
-        cell: "'h-9 w-9 text-center text-sm p-0 relative [&:has([aria-selected].day-range-end)]:rounded-r-md [&:has([aria-selected].day-outside)]:bg-neutral-100/50 [&:has([aria-selected])]:bg-neutral-100 first:[&:has([aria-selected])]:rounded-l-md last:[&:has([aria-selected])]:rounded-r-md focus-within:relative focus-within:z-20' dark:[&:has([aria-selected].day-outside)]:bg-neutral-800/50 dark:[&:has([aria-selected])]:bg-neutral-800",
+        cell: "h-9 w-9 text-center text-sm p-0 relative [&:has([aria-selected].day-range-end)]:rounded-r-md [&:has([aria-selected].day-outside)]:bg-neutral-100/50 [&:has([aria-selected])]:bg-neutral-100 first:[&:has([aria-selected])]:rounded-l-md last:[&:has([aria-selected])]:rounded-r-md focus-within:relative focus-within:z-20 dark:[&:has([aria-selected].day-outside)]:bg-neutral-800/50 dark:[&:has([aria-selected])]:bg-neutral-800",
         day: cn(
           buttonVariants({ variant: "ghost" }),
           "size-9 p-0 font-normal aria-selected:opacity-100"
@@ -30,12 +30,12 @@ function Calendar({
         day_disabled: "text-muted-foreground opacity-50",
         day_hidden: "invisible",
         day_outside:
-          "'day-outside text-neutral-500 opacity-50 aria-selected:bg-neutral-100/50 aria-selected:text-neutral-500 aria-selected:opacity-30' dark:text-neutral-400 dark:aria-selected:bg-neutral-800/50 dark:aria-selected:text-neutral-400",
+          "day-outside text-neutral-500 opacity-50 aria-selected:bg-neutral-100/50 aria-selected:text-neutral-500 aria-selected:opacity-30 dark:text-neutral-400 dark:aria-selected:bg-neutral-800/50 dark:aria-selected:text-neutral-400",
         day_range_end: "day-range-end",
         day_range_middle:
-          "'aria-selected:bg-neutral-100 aria-selected:text-accent-foreground' dark:'aria-selected:bg-neutral-800",
+          "aria-selected:bg-neutral-100 aria-selected:text-accent-foreground dark:'aria-selected:bg-neutral-800",
         day_selected:
-          "'bg-primary text-neutral-50 hover:bg-neutral-900 hover:text-neutral-50 focus:bg-neutral-900 focus:text-primary-foreground' dark:text-neutral-900 dark:hover:bg-neutral-50 dark:hover:text-neutral-900 dark:focus:bg-neutral-50",
+          "bg-primary text-neutral-50 hover:bg-neutral-900 hover:text-neutral-50 focus:bg-neutral-900 focus:text-primary-foreground dark:text-neutral-900 dark:hover:bg-neutral-50 dark:hover:text-neutral-900 dark:focus:bg-neutral-50",
         day_today: "bg-accent text-accent-foreground",
         head_cell:
           "text-muted-foreground rounded-md w-9 font-normal text-[0.8rem]",

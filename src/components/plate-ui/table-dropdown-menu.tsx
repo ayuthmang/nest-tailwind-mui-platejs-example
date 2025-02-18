@@ -237,7 +237,7 @@ export function TablePicker() {
               <div
                 key={`(${rowIndex},${columIndex})`}
                 className={cn(
-                  "'col-span-1 size-3 border border-neutral-200 border-solid bg-secondary' dark:border-neutral-800",
+                  "col-span-1 size-3 border border-neutral-200 border-solid bg-secondary dark:border-neutral-800",
                   !!value && "border-current"
                 )}
                 onMouseMove={() => {

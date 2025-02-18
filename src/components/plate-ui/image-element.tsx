@@ -53,7 +53,7 @@ export const ImageElement = withHOC(
                   className={cn(
                     "block w-full max-w-full cursor-pointer object-cover px-0",
                     "rounded-sm",
-                    focused && selected && "'ring-2 ring-neutral-950 ring-offset-2' dark:ring-neutral-300",
+                    focused && selected && "ring-2 ring-neutral-950 ring-offset-2 dark:ring-neutral-300",
                     isDragging && "opacity-50"
                   )}
                   alt=""

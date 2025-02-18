@@ -272,7 +272,7 @@ const InlineComboboxContent: typeof ComboboxPopover = ({
     <Portal>
       <ComboboxPopover
         className={cn(
-          "'z-500 max-h-[288px] w-[300px] overflow-y-auto rounded-md bg-white shadow-md' dark:bg-neutral-950",
+          "z-500 max-h-[288px] w-[300px] overflow-y-auto rounded-md bg-white shadow-md dark:bg-neutral-950",
           className
         )}
         {...props}
@@ -282,7 +282,7 @@ const InlineComboboxContent: typeof ComboboxPopover = ({
 };
 
 const comboboxItemVariants = cva(
-  "'relative mx-1 flex h-[28px] items-center rounded-sm px-2 text-sm text-neutral-950 outline-none select-none [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0' dark:text-neutral-50",
+  "relative mx-1 flex h-[28px] items-center rounded-sm px-2 text-sm text-neutral-950 outline-none select-none [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 dark:text-neutral-50",
   {
     defaultVariants: {
       interactive: true,
@@ -290,7 +290,7 @@ const comboboxItemVariants = cva(
     variants: {
       interactive: {
         false: "",
-        true: "'cursor-pointer transition-colors hover:bg-neutral-100 hover:text-neutral-900 data-[active-item=true]:bg-neutral-100 data-[active-item=true]:text-accent-foreground' dark:hover:bg-neutral-800 dark:hover:text-neutral-50 dark:data-[active-item=true]:bg-neutral-800",
+        true: "cursor-pointer transition-colors hover:bg-neutral-100 hover:text-neutral-900 data-[active-item=true]:bg-neutral-100 data-[active-item=true]:text-accent-foreground dark:hover:bg-neutral-800 dark:hover:text-neutral-50 dark:data-[active-item=true]:bg-neutral-800",
       },
     },
   }

@@ -66,9 +66,9 @@ export function EmojiPickerNavigation({
                     size="sm"
                     variant="ghost"
                     className={cn(
-                      "'h-fit rounded-full fill-current p-1.5 text-neutral-500 hover:bg-neutral-100 hover:text-muted-foreground' dark:text-neutral-400 dark:hover:bg-neutral-800",
+                      "h-fit rounded-full fill-current p-1.5 text-neutral-500 hover:bg-neutral-100 hover:text-muted-foreground dark:text-neutral-400 dark:hover:bg-neutral-800",
                       id === focusedCategory &&
-                        "'pointer-events-none bg-neutral-100 fill-current text-accent-foreground' dark:bg-neutral-800"
+                        "pointer-events-none bg-neutral-100 fill-current text-accent-foreground dark:bg-neutral-800"
                     )}
                     onClick={() => {
                       onClick(id);

@@ -22,7 +22,7 @@ export function ColumnElementStatic({
         )}
         {...props}
       >
-        <div className={cn("'relative h-full border border-neutral-200 border-transparent p-1.5' dark:border-neutral-800")}>
+        <div className={cn("relative h-full border border-neutral-200 border-transparent p-1.5 dark:border-neutral-800")}>
           {children}
         </div>
       </SlateElement>
